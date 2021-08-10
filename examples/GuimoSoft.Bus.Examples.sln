@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31025.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "external", "external", "{B5849FD8-7D4F-47B4-9AAB-CB8FB9AAE191}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GuimoSoft.Bus.Examples", "src\GuimoSoft.Bus.Examples\GuimoSoft.Bus.Examples.csproj", "{1B57A925-07FA-461C-BA2E-19A0C0A496AF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GuimoSoft.Bus.Kafka", "..\src\GuimoSoft.Bus.Kafka\GuimoSoft.Bus.Kafka.csproj", "{97AB7885-5EC3-4E87-9829-FC70F7797051}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GuimoSoft.Bus.Core", "..\src\GuimoSoft.Bus.Core\GuimoSoft.Bus.Core.csproj", "{78A54BAA-4375-424E-B82B-0432F5E1943F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GuimoSoft.Bus.Abstractions", "..\src\GuimoSoft.Bus.Abstractions\GuimoSoft.Bus.Abstractions.csproj", "{224F5A6E-5C7D-4034-8C98-0DECBBB74606}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GuimoSoft.Core.Serialization", "..\src\GuimoSoft.Core.Serialization\GuimoSoft.Core.Serialization.csproj", "{15016B22-E467-4A24-B788-0F74A04D67D7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1B57A925-07FA-461C-BA2E-19A0C0A496AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B57A925-07FA-461C-BA2E-19A0C0A496AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B57A925-07FA-461C-BA2E-19A0C0A496AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B57A925-07FA-461C-BA2E-19A0C0A496AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97AB7885-5EC3-4E87-9829-FC70F7797051}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97AB7885-5EC3-4E87-9829-FC70F7797051}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97AB7885-5EC3-4E87-9829-FC70F7797051}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97AB7885-5EC3-4E87-9829-FC70F7797051}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78A54BAA-4375-424E-B82B-0432F5E1943F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78A54BAA-4375-424E-B82B-0432F5E1943F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78A54BAA-4375-424E-B82B-0432F5E1943F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78A54BAA-4375-424E-B82B-0432F5E1943F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{224F5A6E-5C7D-4034-8C98-0DECBBB74606}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{224F5A6E-5C7D-4034-8C98-0DECBBB74606}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{224F5A6E-5C7D-4034-8C98-0DECBBB74606}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{224F5A6E-5C7D-4034-8C98-0DECBBB74606}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15016B22-E467-4A24-B788-0F74A04D67D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15016B22-E467-4A24-B788-0F74A04D67D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15016B22-E467-4A24-B788-0F74A04D67D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15016B22-E467-4A24-B788-0F74A04D67D7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{97AB7885-5EC3-4E87-9829-FC70F7797051} = {B5849FD8-7D4F-47B4-9AAB-CB8FB9AAE191}
+		{78A54BAA-4375-424E-B82B-0432F5E1943F} = {B5849FD8-7D4F-47B4-9AAB-CB8FB9AAE191}
+		{224F5A6E-5C7D-4034-8C98-0DECBBB74606} = {B5849FD8-7D4F-47B4-9AAB-CB8FB9AAE191}
+		{15016B22-E467-4A24-B788-0F74A04D67D7} = {B5849FD8-7D4F-47B4-9AAB-CB8FB9AAE191}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DF0868D6-8B06-455E-AA6C-F37B27DAF888}
+	EndGlobalSection
+EndGlobal
