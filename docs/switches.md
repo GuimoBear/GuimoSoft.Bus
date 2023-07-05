@@ -2,9 +2,9 @@
 
 > Qualquer dúvida acerca de algum termo desconhecido, acesse nosso [**_glossário_**](glossario.md)
 
-Por padrão, a implementação do bus trabalha com um único servidor do broker para cada finalizade(consumir e produzir).
+Por padrão, a implementação do bus trabalha com um único servidor do broker para cada finalidade(consumir e produzir).
 
-Existem situações em que é necessário que cada finalizade consiga trabalhar com mais de um servidor, para isso, foi criado o conceito de __**interruptor**__.
+Existem situações em que é necessário que cada finalidade consiga trabalhar com mais de um servidor, para isso, foi criado o conceito de __**interruptor**__.
 
 ## Afinal, o que é um interruptor?
 
